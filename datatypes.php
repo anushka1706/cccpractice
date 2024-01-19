@@ -29,8 +29,21 @@ var_dump($b);
 $str1 = 'i\'ll be back'; //In single quote string to specify singlequote add \ before and to specify \ add \\ before it.
 var_dump($str1);
 
+$strng = 'You deleted C:\\*.*?';
+var_dump($strng);
+
 $str2 = "hello world";
 var_dump($str2);
+
+//Heredoc example
+//<<< operator is used and after this operator identifier is provided  and same identifier is used to close the quotation
+
+echo <<<END
+a
+b
+c
+\n
+END;
 
 //Boolean
 
