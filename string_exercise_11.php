@@ -3,7 +3,7 @@
 //bubblesort
 
 /* we use flag to check if j loop was 
-executed or not if not then no swapping is not  done and array is already sorted  */
+executed or not if not then  swapping is not  done and array is already sorted  */
  function bubblesort(array $arr,$size){
 
     for($i=$size-1;$i>=0;$i--){
