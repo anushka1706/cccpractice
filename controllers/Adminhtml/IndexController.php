@@ -177,7 +177,7 @@ class Ccc_Ticket_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Act
         }
     }
     public function areAllChildrenComplete($parentId)
-    {   
+    {   //echo 123;
         $commentModel = Mage::getModel('ticket/comments');
         $children = $commentModel->getCollection()
             ->addFieldToFilter('parent_id', $parentId);
